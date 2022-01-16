@@ -7,7 +7,7 @@ public class Player{
     public int playerHand(){
         Scanner scan = new Scanner(System.in);
         int hand = scan.nextInt();
-        scan.close();
+        //scan.close();
         return hand;
     }
 }
